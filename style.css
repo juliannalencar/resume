@@ -1,0 +1,162 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #1E1E1E;
+}
+
+.separador {
+  height: 0.5px;
+  background-color: #ACACAC;
+  margin: 68px 184px;
+}
+
+/* Cabeçalho e Navegação */
+header {
+  padding: 32px 182px;
+  margin-bottom: 20px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;  
+}
+
+.logo h1 {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+}
+
+.nav-menu li {
+  margin-left: 24px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav-menu a:hover {
+  font-weight: bold;
+}
+
+.nav-menu a:visited, .nav-menu a:active {
+  color: #1E1E1E;
+}
+
+/* Seção "Quem Sou" */
+#quem-sou {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;  
+  margin: 36px 120px 0;
+}
+
+.quem-sou-container {
+  display: flex; 
+  padding: 64px;
+  box-shadow: 0px 12px 10px 0px rgba(0, 0, 0, 0.05); /* Aplicação da sombra */
+  border-radius: 8px;
+}
+
+.quem-sou-container .texto {
+  margin: 0 56px 0 48px;
+}
+
+.quem-sou-container .texto h2 {
+  font-size: 24px;
+  line-height: 28.8px;
+  font-weight: 600;
+}
+
+.quem-sou-container .texto h3 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #ACACAC;
+  margin: 8px 56px 24px 0;
+}
+
+.quem-sou-container .texto p {
+  font-size: 16px;
+  line-height: 22.4px;
+  margin-right: 56px;
+}
+
+/* Seção Experiências */
+#experiencias {
+  margin: 0 120px 0;
+  padding: 0 64px;
+}
+
+#experiencias h2 {
+  font-size: 24px;
+  font-weight: 28.8px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+#experiencias p {
+  font-size: 14px;
+  font-weight: 19.6px;
+  margin-bottom: 24px;
+  color: #ACACAC;
+}
+
+/* Estilo da tabela */
+
+.tabela-experiencias {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Estilo para o cabeçalho */
+.tabela-experiencias thead th {
+  background-color: #434343;
+  color: #FFF;
+  padding: 33px;
+  text-align: left;
+  font-weight: 400;
+}
+
+.tabela-experiencias thead th.primeira-coluna {
+  border-top-left-radius: 8px;
+}
+
+.tabela-experiencias thead th.ultima-coluna {
+  border-top-right-radius: 8px;
+}
+
+/* Estilo para as linhas da tabela */
+.tabela-experiencias tbody tr {
+  background-color: #FFF;
+}
+
+.tabela-experiencias tbody tr:nth-child(even) {
+  background-color: #F5F5F5;
+}
+
+.tabela-experiencias tbody td {
+  padding: 33px;
+  text-align: left;
+}
+
+.tabela-experiencias tbody td img {
+  width: 40px;
+  vertical-align: middle;
+  margin-right: 16px;
+}

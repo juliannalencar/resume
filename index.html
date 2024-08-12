@@ -1,49 +1,91 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Currículo Julianna Alencar</title>
+  <title>Currículo - Julianna Dantas Alencar</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <main>
-    <header>
-      <h1>Julianna Alencar</h1>
-      
-      <nav>
-        <ul>
-          <li><a href="#quem-sou">Quem sou</a></li>
-          <li><a href="#experiencia">Experiência</a></li>
-          <li><a href="#competencias">Competências</a></li>
-          <li><a href="#objetivos">Objetivos</a></li>
-          <li><a href="#contato">Contato</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <hr class="separador">
-
-    <section id="quem-sou">
-      <div class="container">
-        <div class="imagem">
-          <img src="https://via.placeholder.com/150" alt="Foto de Julianna Alencar">
-        </div>
-        <div class="texto">
-          <h2>Quem sou</h2>
-          <p>Me chamo Julianna Alencar, tenho 25 anos e sou formada em Ciência da Computação pela Universidade Federal de Campina Grande. Atualmente, trabalho como desenvolvedora de software na empresa XYZ.</p>
-        </div>
+  <header>
+    <div class="header-container">
+      <div class="logo">
+        <h1>Julianna Dantas Alencar</h1>
       </div>
-    </section>
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="#quem-sou">Quem sou</a></li>
+          <li><a href="#experiencias">Experiências</a></li>
+          <li><a href="#idiomas">Idiomas</a></li>
+        <li><a href="#objetivos">Objetivos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <hr class="separador">
+  <section id="quem-sou">
+    <div class="quem-sou-container">
+      <div class="imagem">
+        <img src="https://via.placeholder.com/484x350" alt="Imagem de Julianna Dantas Alencar">
+      </div>
+      <div class="texto">
+        <h2>Quem sou</h2>
+        <h3>Dorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+        <p>Dorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.</p>
+      </div>
+    </div>
+  </section>
 
-    <section id="experiencia">
-      <h2>Experiência</h2>
-      <p>Atuações no mercado.</p>
+  <hr class="separador">
+
+  <section id="experiencias">
+    <h2>Experiências</h2>
+    <p>Atuações no mercado.</p>
+    <table class="tabela-experiencias">
+      <thead>
+        <tr>
+          <th class="primeira-coluna">Nome da empresa</th>
+          <th>Atuação</th>
+          <th class="ultima-coluna">Linguagens</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><img src="./assets/cetic.png" alt="Cetic">Cetic</td>
+          <td>Desenvolvedora Front-End</td>
+          <td>Abc, Def e Fgh.</td>
+        </tr>
+        <tr>
+          <td><img src="./assets/pmce.png" alt="PMCE">PMCE</td>
+          <td>Desenvolvedora Front-End</td>
+          <td>Abc, Def e Fgh.</td>
+        </tr> 
+        <tr>
+          <td><img src="./assets/cetic.png" alt="Cetic">Cetic</td>
+          <td>Desenvolvedora Front-End</td>
+          <td>Abc, Def e Fgh.</td>
+        </tr>
+        <tr>
+          <td><img src="./assets/pmce.png" alt="PMCE">PMCE</td>
+          <td>Desenvolvedora Front-End</td>
+          <td>Abc, Def e Fgh.</td>
+        </tr> 
+      </tbody>
+    </table>
+  </section>
+
+  <hr class="separador">
     
 
       
     
-  </main>
+
 </body>
 </html>
