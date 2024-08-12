@@ -72,8 +72,19 @@ header {
   border-radius: 8px;
 }
 
+.quem-sou-container .imagem {
+  flex-basis: 50%;
+}
+.quem-sou-container .imagem img {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  margin-right: 40px;
+  
+}
 .quem-sou-container .texto {
   margin: 0 56px 0 48px;
+  flex-basis: 50%;
 }
 
 .quem-sou-container .texto h2 {
@@ -200,4 +211,162 @@ header {
   font-size: 16px;
   line-height: 22.4px;
   color: #757575;
+}
+
+/* Seção Objetivos */
+#objetivos {
+  margin: 0 120px 0;
+  padding: 0 64px;
+}
+
+#objetivos h2 {
+  font-size: 24px;
+  line-height: 28.8px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+#objetivos p {
+  font-size: 14px;
+  line-height: 19.6px;
+  color: #ACACAC;
+  margin-bottom: 24px;
+}
+
+.objetivos-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.objetivo-item {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px solid #D9D9D9;
+}
+
+.objetivo-item img {
+  width: 24px;
+  height: 24px;
+  margin-right: 24px;
+}
+
+.objetivo-item .texto {
+  font-size: 16px;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Alinha o texto verticalmente */
+}
+
+.objetivo-item .texto p {
+  margin: 0;
+}
+
+.objetivo-item .texto strong {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #000;
+}
+
+/* Seção Contato */
+#contato {
+  margin: 0 120px 0;
+  padding: 0 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 83px;
+}
+
+.texto-container {
+  flex-basis: 50%;
+}
+
+#contato h2 {
+  font-size: 24px;
+  line-height: 28.8px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+#contato p {
+  font-size: 14px;
+  line-height: 19.6px;
+  color: #ACACAC;
+}
+
+.contato-container {
+  flex-basis: 50%;
+}
+
+form {
+  width: 100%;
+}
+
+.form-group {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 16px;
+  line-height: 22.4px;
+  margin-bottom: 8px;
+}
+
+input, textarea {
+  padding: 20px 16px;
+  border: 1px solid #D9D9D9;
+  border-radius: 8px;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+textarea {
+  resize: none;
+  height: 120px;
+  font-family: 'Roboto', sans-serif;
+}
+
+button {
+  padding: 19px 231.5px;
+  font-size: 16px;
+  line-height: 16px;
+  background-color: #2C2C2C;
+  color: #F5F5F5;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+}
+button:hover {
+  background-color: #3f3f3f;
+}
+
+footer {
+  text-align: center;
+  font-size: 16px;
+  line-height: 22.4px;
+  color: #757575;
+  margin-bottom: 80px;
+}
+
+.social-icons {
+  margin-bottom: 24px;
+}
+
+.social-icons a {
+  margin: 0 4px;
+  display: inline-block;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
 }
