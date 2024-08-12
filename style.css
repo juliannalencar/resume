@@ -15,7 +15,6 @@ body {
 
 .separador {
   height: 0.5px;
-  background-color: #ACACAC;
   margin: 68px 184px;
 }
 
@@ -105,14 +104,14 @@ header {
 
 #experiencias h2 {
   font-size: 24px;
-  font-weight: 28.8px;
+  line-height: 28.8px;
   font-weight: 600;
   margin-bottom: 8px;
 }
 
 #experiencias p {
   font-size: 14px;
-  font-weight: 19.6px;
+  line-height: 19.6px;
   margin-bottom: 24px;
   color: #ACACAC;
 }
@@ -159,4 +158,46 @@ header {
   width: 40px;
   vertical-align: middle;
   margin-right: 16px;
+}
+
+/* Seção Idiomas */
+#idiomas {
+  margin: 0 120px 0;
+  padding: 0 64px;
+}
+
+#idiomas h2 {
+  font-size: 24px;
+  line-height: 28.8px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+#idiomas p {
+  font-size: 14px;
+  line-height: 19.6px;
+  color: #ACACAC;
+  margin-bottom: 24px;
+}
+
+/* Estilização da lista de idiomas */
+.lista-idiomas {
+  list-style: none;
+}
+
+.lista-idiomas li {
+  margin-bottom: 24px;
+}
+
+.lista-idiomas li strong {
+  display: block;
+  font-size: 16px;
+  line-height: 22.4px;
+  font-weight: 600;
+}
+
+.lista-idiomas li span {
+  font-size: 16px;
+  line-height: 22.4px;
+  color: #757575;
 }
